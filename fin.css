@@ -1,0 +1,74 @@
+html{
+  height: 100%;
+  position: relative;
+}
+
+h2{
+  padding:0;
+  margin: 5px;
+  opacity: 1;
+}
+
+button {
+  margin: 5px;
+
+}
+
+input{
+  padding: 6px;
+  margin: 5px;
+}
+
+body{
+  background-image: url("Wonka.jpg");
+  text-align: center;
+  background-size: cover;
+  margin: auto;
+  font-family: fantasy;
+}
+
+ul:empty {
+  display: none;
+}
+
+ul {
+  border-radius: 2px;
+  background-color: #9C21DB;
+  padding: 5px;
+  text-align: left;
+  float: left;
+  margin-left: 15px;
+  min-width: 175px;
+  max-width: 175px;
+}
+
+li{
+margin:8px;
+padding: 5px;
+list-style: none;
+background-color: #fff;
+display: block;
+}
+
+#header{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  color: #fff;
+}
+
+#whole-entry{
+  top: 50px;
+  margin-top: 50px;
+}
+
+#application{
+  float: left;
+  background: #9C21DB;
+  width: auto;
+  margin-top: 16px;
+  margin-left: 100px;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 2px;
+}
